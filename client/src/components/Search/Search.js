@@ -14,6 +14,7 @@ class Search extends Component {
             <div>End Year</div>
             <Input name='end' onChange={this.props.handleInputChange}></Input>
             <FormBtn onClick={this.props.handleFormSubmit}>Search</FormBtn>
+
         </div>
     );
   }

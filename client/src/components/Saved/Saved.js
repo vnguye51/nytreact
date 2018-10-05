@@ -10,9 +10,7 @@ class Saved  extends Component {
     return (
         <div>
             <span>Saved Articles</span>
-            <Article>
-              <FormBtn>Delete</FormBtn>
-            </Article>
+            {this.props.children}
         </div>
     );
   }

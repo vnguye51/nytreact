@@ -9,7 +9,6 @@ class Article extends Component {
     return (
         <div>
             {this.props.children}
-            <FormBtn>{this.props.btnType}</FormBtn> 
         </div>
     );
   }
